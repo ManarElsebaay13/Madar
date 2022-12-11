@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/data_entry_icon"
+        android:id="@+id/dataEntryFragment"
+        android:title="Entry"
+        />
+
+    <item
+        android:icon="@drawable/saved_data_icon"
+        android:id="@+id/savedDataFragment"
+        android:title="Saved" />
+
+</menu>

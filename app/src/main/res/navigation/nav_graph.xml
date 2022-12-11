@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dataEntryFragment">
+
+    <fragment
+        android:id="@+id/dataEntryFragment"
+        android:name="com.manarelsebaay.madarsofttask.presentation.fragments.data_entry_fragment.DataEntryFragment"
+        android:label="DataEntryFragment"
+        tools:layout="@layout/data_entry_fragment">
+        <action
+            android:id="@+id/action_dataEntryFragment_to_savedDataFragment"
+            app:destination="@id/savedDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedDataFragment"
+        android:name="com.manarelsebaay.madarsofttask.presentation.fragments.saved_data_fragment.SavedDataFragment"
+        android:label="SavedDataFragment"
+        tools:layout="@layout/saved_data_fragment" />
+</navigation>
